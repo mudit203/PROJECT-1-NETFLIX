@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    /* width: 100vw; */
+    height: 70vh;
+    background-image: url("assets/backg.jpg");
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1300px, 100vw);
+
+
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.74;
+    position: absolute;
+    top: 0;
+
+}
+
+nav {
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+
+}
+
+nav img {
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+
+    gap: 20px;
+    padding: 0 30px;
+
+
+}
+
+.hero> :first-child {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.line {
+    background-color: grey;
+    width: 100vw;
+    height: 7px;
+    opacity: 0.3;
+
+
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    border-radius: 4px;
+    background-color: white;
+    background-color: rgba(23, 23, 23, 0.021);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.btn2 {
+    background-color: red;
+    color: white;
+}
+
+.btn3 {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.main input {
+    padding: 7px 101px 8px 14px;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    color: white;
+}
+
+.b {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.first {
+    display: flex;
+
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.secimg {
+    position: relative;
+}
+
+.secimg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secimg video {
+
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 555px;
+
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+    font-family: sans-serif;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+
+}
+
+.faq {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.faqbox {
+
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
+
+.faqbox:hover {
+    background-color: red;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+section .conc {
+    height: 40vh;
+    width: 100vw;
+
+}
+
+.h {
+    height: 72px;
+    margin-top: 30px;
+}
+
+.h span {
+    color: white;
+    margin: 170px;
+    font-family: sans-serif;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.footeritem {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+a {
+    color: white;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.btenglis {
+    margin: 178px;
+}
+
+.btenglis button {
+    margin-left: 15px;
+    padding: 3px 8px;
+    font-weight: 400;
+    border-radius: 4px;
+    background-color: white;
+    background-color: rgba(23, 23, 23, 0.021);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
